@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "fix-decoder",
+  "version": "${version}",
+  "name": "fix-decoder",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/fix-decoder/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.zly2006.fixDecoder.client.FixDecoderClient"
+    ],
+    "main": [
+      "com.github.zly2006.fixDecoder.FixDecoder"
+    ]
+  },
+  "mixins": [
+    "fix-decoder.mixins.json"
+  ],
+  "depends": {
+  }
+}
